@@ -11,9 +11,9 @@ namespace AgendaContatos.Models
 
 
         [Required(ErrorMessage = "Digite o e-mail docontato")]
-        [EmailAddress(ErrorMessage = "Oe-mail informado não é valido")]
+        [EmailAddress(ErrorMessage = "O e-mail informado não é valido")]
         public string Email { get; set; }
-
+         
 
 
         [Required(ErrorMessage = "Digite o Celular docontato")]

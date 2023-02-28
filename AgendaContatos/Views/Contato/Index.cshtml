@@ -5,7 +5,9 @@
 <div class="text-center">
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
         <a class="btn btn-primary" role="button" asp-controller="Contato" asp-action="Criar">Adicionar novo Contato</a>
-    </div><br />
+    </div>
+    
+    <br />
 
     @if (TempData["MensagemSucesso"] != null)
     {
@@ -27,12 +29,12 @@
 
     <h1 class="display-4">Lista de Contatos</h1><br /><br />
 
-    <table class="table" id="table-contatos">
+    <table id="table-contatos" class="display" style="width:100%">
         <thead>
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">Nome</th>
-                <th scope="col">E-mail</th>
+                <th scope="col">Email</th>
                 <th scope="col">Celular</th>
                 <th scope="col"></th>
             </tr>
@@ -40,7 +42,7 @@
         <tbody>
             @if (Model != null && Model.Any())
             {
-                foreach (ContatoModel contato in Model)
+                foreach (var contato in Model)
                 {
                     <tr>
                         <th scope="row">@contato.Id</th>
@@ -49,13 +51,12 @@
                         <td>@contato.Celular</td>
                         <td>
                             <div class="btn-group" role="group">
-                                <a role="button" class="btn btn-primary" asp-route-id="@contato.Id" asp-controller="contato" asp-action="Editar">Editar</a>
-                                <a role="button" class="btn btn-danger" asp-route-id="@contato.Id" asp-controller="contato" asp-action="ApagarConfirmacao">Apagar</a>
+                                <a role="button" asp-action="Editar" asp-controller="Contato" asp-route-id="@contato.Id" class="btn btn-primary">Editar</a>
+                                <a role="button" asp-action="ApagarConfirmacao" asp-controller="Contato" asp-route-id="@contato.Id" class="btn btn-danger">Apagar</a>
                             </div>
                         </td>
                     </tr>
                 }
-
             }
             else
             {

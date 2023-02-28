@@ -36,7 +36,7 @@ namespace AgendaContatos.Repositorio
         {
            ContatoModel contatoDB = ListarPorId(contato.Id);
 
-            if (contatoDB == null) throw new System.Exception("Houve  um erro na atualização do contato ");
+            if (contatoDB == null ) throw new System.Exception("Houve  um erro na atualização do contato ");
 
             contatoDB.Nome    = contato.Nome;
             contatoDB.Celular = contato.Celular;

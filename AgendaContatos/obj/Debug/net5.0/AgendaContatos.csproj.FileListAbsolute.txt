@@ -377,6 +377,7 @@ C:\Projetos no Git\AgendaContatos\AgendaContatos\obj\Debug\net5.0\Razor\Views\Ho
 C:\Projetos no Git\AgendaContatos\AgendaContatos\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Projetos no Git\AgendaContatos\AgendaContatos\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Projetos no Git\AgendaContatos\AgendaContatos\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Projetos no Git\AgendaContatos\AgendaContatos\obj\Debug\net5.0\Razor\Views\Usuario\Criar.cshtml.g.cs
 C:\Projetos no Git\AgendaContatos\AgendaContatos\obj\Debug\net5.0\Razor\Views\Usuario\Index.cshtml.g.cs
 C:\Projetos no Git\AgendaContatos\AgendaContatos\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Projetos no Git\AgendaContatos\AgendaContatos\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
@@ -389,3 +390,5 @@ C:\Projetos no Git\AgendaContatos\AgendaContatos\obj\Debug\net5.0\refint\AgendaC
 C:\Projetos no Git\AgendaContatos\AgendaContatos\obj\Debug\net5.0\AgendaContatos.pdb
 C:\Projetos no Git\AgendaContatos\AgendaContatos\obj\Debug\net5.0\AgendaContatos.genruntimeconfig.cache
 C:\Projetos no Git\AgendaContatos\AgendaContatos\obj\Debug\net5.0\ref\AgendaContatos.dll
+C:\Projetos no Git\AgendaContatos\AgendaContatos\obj\Debug\net5.0\Razor\Views\Usuario\ApagarConfirmacao.cshtml.g.cs
+C:\Projetos no Git\AgendaContatos\AgendaContatos\obj\Debug\net5.0\Razor\Views\Usuario\Editar.cshtml.g.cs

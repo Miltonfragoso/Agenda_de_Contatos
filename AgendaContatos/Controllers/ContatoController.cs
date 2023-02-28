@@ -69,6 +69,7 @@ namespace AgendaContatos.Controllers
                 if (ModelState.IsValid)
                 {
                     contatoRepositorio.Atualizar(contato);
+
                     TempData["MensagemSucesso"] = "Contato alterado com comsucesso!";
                     return RedirectToAction("Index");
                 }
